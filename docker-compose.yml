@@ -1,0 +1,6 @@
+services:
+  schemaspy:
+    image: schemaspy/schemaspy
+    volumes:
+      - "$PWD/schemaspy.properties:/schemaspy.properties:ro"
+      - "$PWD/output:/output"
